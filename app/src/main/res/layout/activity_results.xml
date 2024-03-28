@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resultbgg">
+
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="150dp"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/context5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:layout_below="@id/percentage"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+    </Button>
+
+
+
+
+</LinearLayout>

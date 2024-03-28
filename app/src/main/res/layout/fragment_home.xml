@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bwl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:text="Good Morning," />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Team Alpha"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/boxthreeimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_margin="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/homeboxmain"
+            app:shapeAppearanceOverlay="@style/roundimageview"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/depression"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/depression"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="ExtraText" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/boxthreeimagee"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/anxiety"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="ExtraText" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ocdimagee"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ocdimg"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="ExtraText" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ptsdimage"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ptsdimg"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="ExtraText" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/insomniaimg"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/insomniaimg"
+            app:shapeAppearanceOverlay="@style/roundimageview"
+            tools:ignore="ExtraText" />
+    </LinearLayout>
+
+</ScrollView>
