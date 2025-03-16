@@ -14,14 +14,14 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_height="26dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
             android:fontFamily="sans-serif-medium"
-            android:textSize="20dp"
-            android:textStyle="italic"
+            android:text="Good Morning,"
             android:textColor="@color/black"
-            android:layout_height="wrap_content"
-            android:text="Good Morning," />
+            android:textSize="20dp"
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/textview2"
@@ -30,7 +30,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="0dp"
             android:fontFamily="sans-serif-black"
-            android:text="Team Alpha"
+            android:text="Team name"
             android:textColor="@color/black"
             android:textSize="25dp"
             android:textStyle="bold" />

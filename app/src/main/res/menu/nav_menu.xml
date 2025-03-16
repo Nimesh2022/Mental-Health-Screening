@@ -28,7 +28,7 @@
             android:title="About Us"/>
     </group>
     <item
-        android:title="">
+        android:title="MHS">
 
         <menu>
             <item
